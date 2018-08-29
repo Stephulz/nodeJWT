@@ -1,0 +1,28 @@
+{
+  "name": "basicnodeapijwt",
+  "version": "1.0.0",
+  "description": "Basic mongodb node API with JWT",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stephulz/nodeJWT.git"
+  },
+  "author": "Stephulz <stefansanches9@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stephulz/nodeJWT/issues"
+  },
+  "homepage": "https://github.com/Stephulz/nodeJWT#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-jwt": "^5.3.1",
+    "mongoose": "^5.2.10",
+    "rootpath": "^0.1.2"
+  }
+}
